@@ -1,0 +1,21 @@
+.App {
+  background-color: #f9ba00;
+  display: flex;
+  justify-content: center;
+}
+.AppContent {
+  min-height: 100vh;
+  display: flex;
+  color: white;
+}
+@media (max-width: 1000px) {
+  .AppContent {
+    flex-direction: column-reverse;
+  }
+}
+@media (min-width: 1000px) {
+  .Appcontent {
+    padding: 0 5rem;
+    justify-content: space-around;
+  }
+}

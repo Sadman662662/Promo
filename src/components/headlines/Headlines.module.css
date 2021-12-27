@@ -1,0 +1,53 @@
+.Headlines {
+  /* height: 80vh; */
+  padding: 10vh 0 5vh 0;
+}
+.Headlines h1 {
+  font-size: 3.5rem;
+  margin-left: 2rem;
+  margin-top: 0;
+}
+
+.PeraDiv {
+  width: 70%;
+  display: flex;
+  margin: 1.5rem 0;
+}
+.PeraDiv p {
+  font-size: 1.7rem;
+}
+.PeraDiv img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.PeraDiv p {
+  margin: 0;
+}
+
+@media (max-width: 1000px) {
+  .PeraDiv {
+    width: 28rem;
+    margin: 1.5rem auto;
+  }
+  .PeraDiv p {
+    font-size: 1.5rem;
+  }
+  .Headlines h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .PeraDiv {
+    width: 20rem;
+    margin: 1rem auto;
+  }
+  .PeraDiv p {
+    font-size: 1.1rem;
+  }
+  .Headlines h1 {
+    font-size: 2.5rem;
+  }
+}

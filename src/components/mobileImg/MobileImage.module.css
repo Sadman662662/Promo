@@ -1,0 +1,16 @@
+.MobileImage {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  padding: 5vh 0;
+}
+.MobileImage img {
+  height: 100%;
+}
+
+@media (max-width: 1000px) {
+  .MobileImage {
+    display: flex;
+    justify-content: center;
+  }
+}
